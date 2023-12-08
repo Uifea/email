@@ -1,0 +1,142 @@
+<mjml>
+    <mj-head>
+        <mj-title>Welcome</mj-title>
+        <mj-preview>
+            Welcome
+        </mj-preview>
+        <mj-style>
+            .action {
+                width: 241px;
+                margin: 0 auto;
+                text-align: center;
+            }
+
+            .action span {
+                    color: #C48300;
+            }
+            .line {
+                padding-top: 20px;
+                border-bottom: 1px solid #C7AD9F;
+                padding-bottom: 0;
+                margin-bottom:0;
+            }
+
+            .item-descrip h3 {
+                text-transform: uppercase;
+                color: #432916;
+                font-size: 12px;
+                font-weight: 700;
+            }
+
+            .item-descrip p {
+                color: #615F5E;
+                font-size: 10px;
+                font-weight: 400;
+            }
+
+            .item-descrip span {
+                color: #705645;
+                text-align: center;
+                font-family: Verdana;
+                font-size: 11px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body width="601px" >
+        <mj-wrapper padding="38px 38px 43px 38px" background-url="img/background.png">
+            <mj-section padding="0">
+                <mj-column width="525px" background-color="#F7F0E8" padding="15px 0 32px 0">
+                    <mj-image align="center" width="64px" src="img/acme.png" alt="acme" />
+                    <mj-navbar base-url="https://mjml.io" hamburger="hamburger" ico-color="#ffffff">
+                        <mj-navbar-link href="#" color="#432916" font-size="9px" font-family="Verdana">Home</mj-navbar-link>
+                        <mj-navbar-link href="#" color="#432916" font-size="9px" font-family="Verdana">New Additions</mj-navbar-link>
+                        <mj-navbar-link href="#" color="#432916" font-size="9px" font-family="Verdana">Clearance</mj-navbar-link>
+                        <mj-navbar-link href="#" color="#432916" font-size="9px" font-family="Verdana">About Us</mj-navbar-link>
+                    </mj-navbar>
+                    <mj-image align="center" width="320px" src="img/welcome.png" alt="welcome" />
+                    <mj-text align="center" color="#705645" font-size="14px" font-family="Verdana" font-weight="400" letter-spacing="2.24px">
+                        to {storename}
+                    </mj-text>
+                    <mj-image src="img/romb.png" alt="" width="6px" align="center" />
+                    <mj-text align="center" font-size="12px" font-family="Verdana" color="#705645">
+                        Elegance and quality no matter what your style
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding="0">
+                <mj-column width="525px" background-color="#FFF" padding="32px 56px 0px 56px">
+                    <mj-image src="img/procent.png" width="52px" alt="акция" />
+                    <mj-text align="center" color="#705645" font-family="Verdana">
+                        <p class="action">Use code <span>1234</span> on checkout to receive <span>5% off</span> on your first purchase.</p>
+                    </mj-text>
+                    <mj-text>
+                        <div class="line"></div>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding="0">
+                <mj-column width="525px" background-color="#FFF" padding="42px 56px 52pxpx 56px">
+                    <mj-image src="img/New-arrival.png" width="162px" alt="" />  
+                </mj-column>
+            </mj-section>
+            <mj-section background-color="#FFF">
+                <mj-column width="200px" background-color="#FFF" padding-bottom="52px">
+                    <mj-image src="img/necklace.png" width="128px" align="center" />
+                    <mj-text align="center" font-family="Verdana">
+                        <div class="item-descrip">
+                            <h3>necklace</h3>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua.</p>
+                            <span>shop now</span>
+                        </div>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="200px"  background-color="#FFF" padding-bottom="52px">
+                    <mj-image src="img/earings.png" width="128px" padding-bottom="18px" align="center" />
+                    <mj-text align="center" font-family="Verdana">
+                        <div class="item-descrip">
+                            <h3>earings</h3>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua.</p>
+                            <span>shop now</span>
+                        </div>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding="40px 69px 33px 40px" background-color="#E9EBED">
+                <mj-column width="229px">
+                    <mj-image src="img/rings.png" width="229px" alt="" />
+                </mj-column>
+                <mj-column width="185px" background-color="#E9EBED">
+                    <mj-image src="img/Rings-title.png" width="85px" padding-top="55px" padding-bottom="0" align="left" alt="" />
+                    <mj-text color="#595959" font-size="12px" padding-bottom="0" font-family="Verdana">
+                     Amet minim mollit non deserunt ullamco est sit aliqua.
+                    </mj-text>
+                    <mj-button background-color="transparent" color="#432916" border="1px solid #DCC29C" font-size="11px" width="108px" inner-padding="6px" align="left">
+                        SHOP NOW
+                    </mj-button>
+                </mj-column>
+            </mj-section>
+            <mj-section padding="29px 0 37px 0" background-color="#432916">
+                <mj-column width="525px">
+                    <mj-social mode="horizontal" icon-size="32px">
+                        <mj-social-element href="#" src="img/Facebook_white.png" padding="10px">
+                        </mj-social-element>
+                        <mj-social-element href="#" src="img/Instagram_white.png" padding="10px">
+                        </mj-social-element>
+                        <mj-social-element href="#" src="img/Twitter_white.png" padding="10px">
+                        </mj-social-element>
+                        <mj-social-element href="#" src="img/Mail_white.png" padding="10px">
+                        </mj-social-element>
+                    </mj-social>
+                    <mj-text align="center" color="#FFFFFF" font-size="13px" font-family="Verdana">
+                        <p>Sent from Acme</p>
+                        <p>Fake adress</p>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+    </mj-body>
+</mjml>
